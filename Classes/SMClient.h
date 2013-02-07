@@ -615,5 +615,7 @@
 - (void)getLoggedInUserTwitterInfoOnSuccess:(SMResultSuccessBlock)successBlock
                                       onFailure:(SMFailureBlock)failureBlock;
 
+- (void)loginWithGigya;
+
 
 @end
